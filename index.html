@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>COLOMONATI Restaurant | Taste. Gather. Enjoy.</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                COLOMONATI<span>.</span>
+            </a>
+
+            <nav id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reservation">Reservation</a>
+            </nav>
+
+            <a href="#reservation" class="nav-button">
+                Book a Table
+            </a>
+
+            <button class="menu-button" id="menuButton">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p class="eyebrow">
+                WELCOME TO COLOMONATI
+            </p>
+
+            <h1>
+                Good Food.
+                <span>Good Moments.</span>
+            </h1>
+
+            <p class="hero-text">
+                A modern dining experience where great food,
+                warm hospitality and unforgettable moments come together.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="primary-button">
+                    Explore Menu
+                </a>
+
+                <a href="#reservation" class="secondary-button">
+                    Reserve a Table
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <div class="container features-grid">
+
+            <div class="feature">
+
+                <i class="fa-solid fa-utensils"></i>
+
+                <div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Quality ingredients in every dish.</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <i class="fa-solid fa-fire-burner"></i>
+
+                <div>
+                    <h3>Made With Care</h3>
+                    <p>Prepared by passionate chefs.</p>
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <div>
+                    <h3>Warm Hospitality</h3>
+                    <p>A place made for good moments.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section class="menu section" id="menu">
+
+        <div class="container">
+
+            <div class="section-heading center">
+
+                <p class="eyebrow">OUR MENU</p>
+
+                <h2>
+                    Crafted For
+                    <span>Your Taste.</span>
+                </h2>
+
+                <p>
+                    Explore some of our favorite dishes,
+                    prepared fresh for every guest.
+                </p>
+
+            </div>
+
+
+            <div class="menu-filters">
+
+                <button class="filter-button active" data-category="all">
+                    All
+                </button>
+
+                <button class="filter-button" data-category="starter">
+                    Starters
+                </button>
+
+                <button class="filter-button" data-category="main">
+                    Main Dishes
+                </button>
+
+                <button class="filter-button" data-category="dessert">
+                    Desserts
+                </button>
+
+            </div>
+
+
+            <div class="menu-grid">
+
+
+                <article class="food-card" data-category="starter">
+
+                    <div class="food-image food-one">
+                        <span>STARTER</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Garden Bruschetta</h3>
+                            <p>
+                                Toasted bread, tomatoes, herbs and olive oil.
+                            </p>
+                        </div>
+
+                        <strong>$8</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card" data-category="starter">
+
+                    <div class="food-image food-two">
+                        <span>STARTER</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Creamy Soup</h3>
+                            <p>
+                                Seasonal vegetables with fresh herbs.
+                            </p>
+                        </div>
+
+                        <strong>$7</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card" data-category="main">
+
+                    <div class="food-image food-three">
+                        <span>MAIN</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Grilled Steak</h3>
+                            <p>
+                                Tender grilled steak with vegetables and sauce.
+                            </p>
+                        </div>
+
+                        <strong>$24</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card" data-category="main">
+
+                    <div class="food-image food-four">
+                        <span>MAIN</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Herb Chicken</h3>
+                            <p>
+                                Roasted chicken, herbs and seasonal vegetables.
+                            </p>
+                        </div>
+
+                        <strong>$18</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card" data-category="main">
+
+                    <div class="food-image food-five">
+                        <span>MAIN</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Ocean Pasta</h3>
+                            <p>
+                                Creamy pasta with prawns and fresh herbs.
+                            </p>
+                        </div>
+
+                        <strong>$20</strong>
+
+                    </div>
+
+                </article>
+
+
+                <article class="food-card" data-category="dessert">
+
+                    <div class="food-image food-six">
+                        <span>DESSERT</span>
+                    </div>
+
+                    <div class="food-info">
+
+                        <div>
+                            <h3>Chocolate Cake</h3>
+                            <p>
+                                Rich chocolate cake with smooth cream.
+                            </p>
+                        </div>
+
+                        <strong>$9</strong>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+        <div class="container about-grid">
+
+            <div class="about-visual">
+
+                <div class="visual-box">
+
+                    <i class="fa-solid fa-wine-glass"></i>
+
+                    <p>EST. 2026</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="eyebrow">OUR STORY</p>
+
+                <h2>
+                    More Than Just
+                    <span>A Meal.</span>
+                </h2>
+
+                <p>
+                    COLOMONATI Restaurant is built around one simple idea:
+                    great food brings people together.
+                </p>
+
+                <p>
+                    From casual dinners to special celebrations, we create
+                    a welcoming environment where every guest can relax,
+                    connect and enjoy something memorable.
+                </p>
+
+                <a href="#reservation" class="text-link">
+                    Make a Reservation →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="gallery section" id="gallery">
+
+        <div class="container">
+
+            <div class="section-heading center">
+
+                <p class="eyebrow">THE EXPERIENCE</p>
+
+                <h2>
+                    A Place To
+                    <span>Enjoy.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-one">
+                    <span>Dining</span>
+                </div>
+
+                <div class="gallery-item gallery-two">
+                    <span>Food</span>
+                </div>
+
+                <div class="gallery-item gallery-three">
+                    <span>Moments</span>
+                </div>
+
+                <div class="gallery-item gallery-four">
+                    <span>Atmosphere</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESERVATION -->
+    <section class="reservation section" id="reservation">
+
+        <div class="container">
+
+            <div class="reservation-box">
+
+                <div class="reservation-content">
+
+                    <p class="eyebrow">RESERVATIONS</p>
+
+                    <h2>
+                        Your Table
+                        <span>Awaits.</span>
+                    </h2>
+
+                    <p>
+                        Planning a dinner, celebration or special evening?
+                        Reserve your table with us.
+                    </p>
+
+                    <div class="reservation-details">
+
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            +256 700 000 000
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-clock"></i>
+                            Mon – Sun: 11:00 – 23:00
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <form id="reservationForm">
+
+                    <input
+                        type="text"
+                        id="guestName"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="tel"
+                        id="guestPhone"
+                        placeholder="Phone Number"
+                        required
+                    >
+
+                    <div class="form-row">
+
+                        <input
+                            type="date"
+                            id="bookingDate"
+                            required
+                        >
+
+                        <select id="bookingGuests" required>
+
+                            <option value="">
+                                Guests
+                            </option>
+
+                            <option>1 Guest</option>
+                            <option>2 Guests</option>
+                            <option>3 Guests</option>
+                            <option>4 Guests</option>
+                            <option>5 Guests</option>
+                            <option>6+ Guests</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <select id="bookingTime" required>
+
+                        <option value="">
+                            Preferred Time
+                        </option>
+
+                        <option>12:00 PM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>5:00 PM</option>
+                        <option>6:00 PM</option>
+                        <option>7:00 PM</option>
+                        <option>8:00 PM</option>
+                        <option>9:00 PM</option>
+
+                    </select>
+
+
+                    <textarea
+                        id="bookingNote"
+                        placeholder="Special requests (optional)"
+                    ></textarea>
+
+
+                    <button type="submit" class="primary-button">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        Request Reservation
+                    </button>
+
+                    <p id="reservationMessage"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="#home" class="logo">
+                    COLOMONATI<span>.</span>
+                </a>
+
+                <p>
+                    Taste. Gather. Enjoy.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reservation">Reservation</a>
+
+            </div>
+
+
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            <p>
+                © 2026 COLOMONATI Restaurant. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
